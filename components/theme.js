@@ -27,6 +27,7 @@ export const defaultTheme = StyleSheet.create({
     color: '#000',
     fontSize: 20,
   },
+  // Trịnh Gia Bảo - 21521866
   largeBoldText: {
     color: '#000',
     fontSize: 20,
@@ -55,6 +56,7 @@ export const defaultTheme = StyleSheet.create({
   btn: {
     borderRadius: 5,
   },
+  // Trịnh Gia Bảo - 21521866
   faq: {
     flex: 1,
     marginHorizontal: 20,
@@ -84,6 +86,7 @@ export const darkmodeTheme = StyleSheet.create({
     fontWeight: 'bold',
     marginVertical: 5,
   },
+  // Trịnh Gia Bảo - 21521866
   normalText: {
     color: '#fff',
   },
@@ -105,6 +108,7 @@ export const darkmodeTheme = StyleSheet.create({
   feedback: {
     margin: 20,
   },
+  // Trịnh Gia Bảo - 21521866
   feedbackInput: {
     color: '#fff',
     backgroundColor: '#303030',

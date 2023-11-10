@@ -1,3 +1,4 @@
+// Trịnh Gia Bảo - 21521866
 import React, {useState} from 'react';
 import {View} from 'react-native';
 import HeaderLogo from './HeaderLogo';
@@ -27,6 +28,7 @@ const HomeScreen = () => {
       ];
     });
   };
+  // Trịnh Gia Bảo - 21521866
   return (
     <View style={styles.body}>
       <HeaderLogo />

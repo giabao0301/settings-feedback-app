@@ -1,3 +1,4 @@
+// Trịnh Gia Bảo - 21521866
 import React, {useState} from 'react';
 import {View, Text, TextInput, Button, Keyboard, Alert} from 'react-native';
 import {useDarkMode} from '../context/theme-context';
@@ -22,6 +23,7 @@ const Feedback = props => {
       }
     }
   };
+  // Trịnh Gia Bảo - 21521866
   return (
     <View style={styles.feedback}>
       <Text style={styles.largeText}>Feedback</Text>

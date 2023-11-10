@@ -1,10 +1,10 @@
-import React, {useState} from 'react';
+// Trịnh Gia Bảo - 21521866
+import React from 'react';
 import {FlatList, Text, View} from 'react-native';
 import {useDarkMode} from '../context/theme-context';
 
 export const FAQItem = ({title}) => {
   const {styles} = useDarkMode();
-
   return (
     <View style={styles.faqItem}>
       <Text style={styles.normalText}>Q: {title}</Text>
@@ -14,7 +14,6 @@ export const FAQItem = ({title}) => {
 
 const FAQList = props => {
   const {styles} = useDarkMode();
-
   return (
     <View style={styles.faq}>
       <Text style={styles.largeBoldText}>Frequently Asked Questions</Text>

@@ -1,8 +1,9 @@
+// Trịnh Gia Bảo - 21521866
 import React from 'react';
 import {Switch, View, Text} from 'react-native';
 import {useDarkMode} from '../context/theme-context';
 
-const Notifications = props => {
+const Setting = props => {
   const {styles} = useDarkMode();
   return (
     <View style={styles.setting}>
@@ -17,4 +18,4 @@ const Notifications = props => {
   );
 };
 
-export default Notifications;
+export default Setting;
