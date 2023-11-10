@@ -1,3 +1,4 @@
+// Trịnh Gia Bảo - 21521866
 import {StyleSheet} from 'react-native';
 
 export const defaultTheme = StyleSheet.create({

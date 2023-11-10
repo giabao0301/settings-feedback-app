@@ -1,5 +1,5 @@
+// Trịnh Gia Bảo - 21521866
 import React, {useState, createContext, useContext} from 'react';
-import {View} from 'react-native';
 import {defaultTheme, darkmodeTheme} from '../components/theme';
 
 const ThemeContext = createContext();
